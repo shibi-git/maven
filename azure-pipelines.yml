@@ -9,9 +9,3 @@
     mavenAuthenticateFeed: false
     effectivePomSkip: false
     sonarQubeRunAnalysis: false
-- task: Docker@2
-  inputs:
-    containerRegistry: 'docker'
-    repository: 'maven'
-    command: 'buildAndPush'
-    Dockerfile: '**/Dockerfile'
