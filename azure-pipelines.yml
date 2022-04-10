@@ -23,6 +23,6 @@ steps:
 - task: Docker@2
   inputs:
     containerRegistry: 'docker'
-    repository: 'maven'
+    repository: 'shibipg/maven'
     command: 'buildAndPush'
     Dockerfile: '**/Dockerfile'
